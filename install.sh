@@ -19,7 +19,7 @@ Package control:
  \>X11 - install x11 repo
 
 Target functions:
-|>e - erase everything installed by install.sh
+|>e - erase everything installed by install.sh(in dev, not working)
  \>z - launch zphisher
 
 Else:
