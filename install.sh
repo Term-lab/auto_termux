@@ -1,7 +1,7 @@
 pkg install figlet > /dev/null
 clear
 figlet INSTALLATION
-echo "alias u='figlet UPDATE&UPGRADE;pkg update && pkg upgrade'
+echo "alias u='figlet UPDATE;pkg update;figlet UPGRADE;pkg upgrade'
 alias e='figlet ERASING!!!;sleep 2;clear;history -c;sleep 1;figlet ALL CLEAR;sleep 1;clear'
 alias c='clear;'
 alias weather='curl -4 wttr.in/Moscow'
