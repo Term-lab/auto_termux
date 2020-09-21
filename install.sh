@@ -9,7 +9,7 @@ alias z='cd ;cd exp;cd zphisher;./zphisher.sh;cd '
 alias unstable='pkg install unstable-repo > /dev/null;figlet INSTALL COMPLETE'
 alias root='pkg install root-repo'
 alias X11='pkg install x11-repo'
-alias h='Shortcuts help:
+alias h='echo `Shortcuts help:
 
 Package control:
 |>u - update and upgrade using pkg
@@ -24,7 +24,7 @@ Target functions:
 Else:
 |>c - clear output
 |>h - show this help
- \>weather - show weather(Moscow)'
+ \>weather - show weather(Moscow)`'
 neofetch" > /data/data/com.termux/files/usr/etc/bash.bashrc
 rm -rf /data/data/com.termux/files/usr/etc/motd
 echo "List of shortcuts:
