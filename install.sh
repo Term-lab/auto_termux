@@ -2,10 +2,8 @@ pkg install figlet > /dev/null
 clear
 figlet INSTALLATION
 echo "alias u='figlet UPDATE;pkg update;figlet UPGRADE;pkg upgrade'
-alias e='figlet ERASING!!!;sleep 2;clear;history -c;sleep 1;figlet ALL CLEAR;sleep 1;clear'
 alias c='clear;'
 alias weather='curl -4 wttr.in/Moscow'
-alias z='cd ;cd exp;cd zphisher;./zphisher.sh;cd '
 alias unstable='pkg install unstable-repo > /dev/null;figlet INSTALL COMPLETE'
 alias root='pkg install root-repo'
 alias X11='pkg install x11-repo'
@@ -16,10 +14,6 @@ Package control:
 |>unstable - install unstable repo
 |>root - install root repo
  \>X11 - install x11 repo
-
-Target functions:
-|>e - erase everything installed by install.sh(in dev, not working)
- \>z - launch zphisher
 
 Else:
 |>c - clear output
@@ -34,10 +28,6 @@ Package control:
 |>root - install root repo
  \>X11 - install x11 repo
 
-Target functions:
-|>e - erase everything installed by install.sh(in dev, not working)
- \>z - launch zphisher
-
 Else:
 |>c - clear output
 |>h - help
@@ -48,7 +38,6 @@ pkg update && pkg upgrade > /dev/null
 pkg install git php neofetch > /dev/null
 mkdir exp
 cd exp
-git clone https://github.com/htr-tech/zphisher > /dev/null
 clear
 figlet INSTALLATION COMPLETE
 sleep 2
